@@ -236,12 +236,12 @@ Menu, Tray, Add, &Right Right Small Bottom, RightSmallBottom
 
 ;; keyboard shortcuts
 #a::ResizeWinMine(LeftLeftWidth,LeftLeftHeight, LeftLeftLeft, LeftLeftTop)
-#s::ResizeWinMine(LeftRightWidth,LeftRightHeight, LeftRightLeft, LeftRightTop)
+; #s::ResizeWinMine(LeftRightWidth,LeftRightHeight, LeftRightLeft, LeftRightTop)
 
 #q::ResizeWinMine(RightLeftWidth,RightLeftHeight, RightLeftLeft, RightLeftTop)
 #w::ResizeWinMine(RightRightWidth,RightRightHeight, RightRightLeft, RightRightTop)
-#e::ResizeWinMine(RightRightTopWidth,RightRightTopHeight, RightRightTopLeft, RightRightTopTop)
-#d::ResizeWinMine(RightRightBotWidth,RightRightBotHeight, RightRightBotLeft, RightRightBotTop)
+#s::ResizeWinMine(RightRightTopWidth,RightRightTopHeight, RightRightTopLeft, RightRightTopTop)
+#x::ResizeWinMine(RightRightBotWidth,RightRightBotHeight, RightRightBotLeft, RightRightBotTop)
 
 ;; menu items
 ;; for the menu we have to activate the previos window (may not be perfect in all case)
