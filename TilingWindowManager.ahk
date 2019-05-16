@@ -125,23 +125,6 @@ windowHeightTall := monitorHeight - (windowBorder * 2)
 windowHeightTallTaskbar := monitorHeight - (windowBorder * 2) - taskbarHeight
 windowRightWidth := monitorWidth - windowLeftWidth - (windowBorder * 3)
 
-;;  _________     _________
-;; |   |     |   |     |___| -- LeftLeft
-;; | X |     |   |     |   |
-;; '---i-----'   '-----i---'
-LeftLeftWidth := windowRightWidth
-LeftLeftHeight := windowHeightTall
-LeftLeftLeft := monitorBorderLeft + windowBorder - monitorWidth
-LeftLeftTop := windowBorder
-
-;;  _________     _________
-;; |   |     |   |     |___| -- LeftRight
-;; |   |  X  |   |     |   |
-;; '---i-----'   '-----i---'
-LeftRightWidth := windowLeftWidth
-LeftRightHeight := windowHeightTall
-LeftRightLeft := windowRightWidth + (windowBorder * 2) - monitorWidth
-LeftRightTop := windowBorder
 
 ;;  _________     _________
 ;; |   |     |   |     |___| -- RightLeft
@@ -225,8 +208,6 @@ Menu, Tray, Icon , icon.ico
 Menu, tray, NoStandard
 Menu, Tray, Add, Exit, Exit
 Menu, Tray, Add
-Menu, Tray, Add, &Left Left Small, LeftLeft
-Menu, Tray, Add, &Left Right Large, LeftRight
 Menu, Tray, Add
 Menu, Tray, Add, &Right Left Large, LeftLarge
 Menu, Tray, Add, &Right Right Small, RightSmall
@@ -235,9 +216,6 @@ Menu, Tray, Add, &Right Right Small Top, RightSmallTop
 Menu, Tray, Add, &Right Right Small Bottom, RightSmallBottom
 
 ;; keyboard shortcuts
-#a::ResizeWinMine(LeftLeftWidth,LeftLeftHeight, LeftLeftLeft, LeftLeftTop)
-; #s::ResizeWinMine(LeftRightWidth,LeftRightHeight, LeftRightLeft, LeftRightTop)
-
 #q::ResizeWinMine(RightLeftWidth,RightLeftHeight, RightLeftLeft, RightLeftTop)
 #w::ResizeWinMine(RightRightWidth,RightRightHeight, RightRightLeft, RightRightTop)
 #s::ResizeWinMine(RightRightTopWidth,RightRightTopHeight, RightRightTopLeft, RightRightTopTop)
@@ -248,16 +226,6 @@ Menu, Tray, Add, &Right Right Small Bottom, RightSmallBottom
 ;; because the tray popup itself counts as a window
 Exit:
 ExitApp
-
-LeftLeft:
-Send !{Esc} ; Activate previous window
-ResizeWinMine(LeftLeftWidth,LeftLeftHeight, LeftLeftLeft, LeftLeftTop)
-return
-
-LeftRight:
-Send !{Esc} ; Activate previous window
-ResizeWinMine(LeftRightWidth,LeftRightHeight, LeftRightLeft, LeftRightTop)
-return
 
 LeftLarge:
 Send !{Esc} ; Activate previous window
