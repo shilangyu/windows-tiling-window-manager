@@ -171,7 +171,7 @@ RightRightTopLeft := windowLeftWidth + (windowBorder * 2)
 RightRightTopTop := windowBorder
 
 ;;  _________     _________
-;; |   |     |   |     |___| -- RightRightTop
+;; |   |     |   |     |___| -- RightRightBot
 ;; |   |     |   |     | X |
 ;; '---i-----'   '-----i---'
 RightRightBotWidth := windowRightWidth
