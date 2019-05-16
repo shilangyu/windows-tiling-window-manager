@@ -50,6 +50,12 @@ windowOverrides["chrome.exe"]["top"]            := 0
 windowOverrides["chrome.exe"]["width"]          := +16
 windowOverrides["chrome.exe"]["height"]         := +8
 
+windowOverrides["Code.exe"]                   := Object()
+windowOverrides["Code.exe"]["left"]           := -1
+windowOverrides["Code.exe"]["top"]            := 0
+windowOverrides["Code.exe"]["width"]          := +2
+windowOverrides["Code.exe"]["height"]         := 1
+
 windowOverrides["ApplicationFrameHost.exe"]                   := Object()
 windowOverrides["ApplicationFrameHost.exe"]["left"]           := -8
 windowOverrides["ApplicationFrameHost.exe"]["top"]            := 0
