@@ -21,10 +21,10 @@ windowRightSmallTopHeight = 550
 
 ;; monitor geometry
 ;; todo: automate this
-monitorBorderRight = 1920
+monitorBorderRight = A_screenWidth
 monitorBorderLeft = 0
-monitorWidth = 1920
-monitorHeight = 1080
+monitorWidth := A_screenWidth
+monitorHeight := A_screenHeight
 taskbarHeight = 30
 
 ;; override system, here you can define a default offset and specific program offsets
