@@ -38,59 +38,17 @@ windowOverrides["default"]["top"]            := 0
 windowOverrides["default"]["width"]          := +16
 windowOverrides["default"]["height"]         := +8
 
-windowOverrides["ONENOTE.EXE"]                   := Object()
-windowOverrides["ONENOTE.EXE"]["left"]           := 0
-windowOverrides["ONENOTE.EXE"]["top"]            := 0
-windowOverrides["ONENOTE.EXE"]["width"]          := 0
-windowOverrides["ONENOTE.EXE"]["height"]         := 0
-
-windowOverrides["Steam.exe"]                   := Object()
-windowOverrides["Steam.exe"]["left"]           := 1
-windowOverrides["Steam.exe"]["top"]            := 1
-windowOverrides["Steam.exe"]["width"]          := -2
-windowOverrides["Steam.exe"]["height"]         := -2
-
 windowOverrides["explorer.exe"]                   := Object()
 windowOverrides["explorer.exe"]["left"]           := -8
 windowOverrides["explorer.exe"]["top"]            := 0
 windowOverrides["explorer.exe"]["width"]          := +16
 windowOverrides["explorer.exe"]["height"]         := +8
 
-windowOverrides["atom.exe"]                   := Object()
-windowOverrides["atom.exe"]["left"]           := -8
-windowOverrides["atom.exe"]["top"]            := 0
-windowOverrides["atom.exe"]["width"]          := +16
-windowOverrides["atom.exe"]["height"]         := +8
-
 windowOverrides["chrome.exe"]                   := Object()
 windowOverrides["chrome.exe"]["left"]           := -8
 windowOverrides["chrome.exe"]["top"]            := 0
 windowOverrides["chrome.exe"]["width"]          := +16
 windowOverrides["chrome.exe"]["height"]         := +8
-
-windowOverrides["firefox.exe"]                   := Object()
-windowOverrides["firefox.exe"]["left"]           := -6
-windowOverrides["firefox.exe"]["top"]            := 0
-windowOverrides["firefox.exe"]["width"]          := +12
-windowOverrides["firefox.exe"]["height"]         := +6
-
-windowOverrides["putty.exe"]                   := Object()
-windowOverrides["putty.exe"]["left"]           := -4
-windowOverrides["putty.exe"]["top"]            := 0
-windowOverrides["putty.exe"]["width"]          := +8
-windowOverrides["putty.exe"]["height"]         := +4
-
-windowOverrides["WinSCP.exe"]                   := Object()
-windowOverrides["WinSCP.exe"]["left"]           := -8
-windowOverrides["WinSCP.exe"]["top"]            := 0
-windowOverrides["WinSCP.exe"]["width"]          := +16
-windowOverrides["WinSCP.exe"]["height"]         := +8
-
-windowOverrides["pidgin.exe"]                   := Object()
-windowOverrides["pidgin.exe"]["left"]           := -8
-windowOverrides["pidgin.exe"]["top"]            := 0
-windowOverrides["pidgin.exe"]["width"]          := +16
-windowOverrides["pidgin.exe"]["height"]         := +8
 
 windowOverrides["ApplicationFrameHost.exe"]                   := Object()
 windowOverrides["ApplicationFrameHost.exe"]["left"]           := -8
